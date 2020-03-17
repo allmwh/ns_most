@@ -1,0 +1,102 @@
+BLASTN 2.9.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: nt
+           103,616 sequences; 101,260,773 total letters
+
+
+
+Query= DVNP1_sequenced
+
+Length=289
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+GELK01048601.1 TSA: Noctiluca scintillans c32452_g2_i4 transcribe...  387        8e-107
+GELK01048602.1 TSA: Noctiluca scintillans c32452_g2_i5 transcribe...  366        1e-100
+
+
+>GELK01048601.1 TSA: Noctiluca scintillans c32452_g2_i4 transcribed 
+RNA sequence
+Length=592
+
+ Score = 387 bits (209),  Expect = 8e-107
+ Identities = 259/284 (91%), Gaps = 0/284 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGAAGGGGAAGAAACCGAGCGTCATCGCCAGAGGAAGTCGCATGTACGCGGTTGTGTTCT  60
+            |||||||||||   ||||||| |||||||||||||||||| |||||||||| ||||||||
+Sbjct  104  TGAAGGGGAAGCGGCCGAGCGCCATCGCCAGAGGAAGTCGGATGTACGCGGCTGTGTTCT  163
+
+Query  61   CGGGCAGGAAGGAGAAAACGTACACGGGCTTGACCAAGTCTGACCTTCAACGCAATTCCT  120
+            |||||||||||||||| ||||||||||||||||||||||| ||||| |||||||||||||
+Sbjct  164  CGGGCAGGAAGGAGAAGACGTACACGGGCTTGACCAAGTCGGACCTCCAACGCAATTCCT  223
+
+Query  121  ACAACCGCATTGTTTCGAAACGTCGATCGGCGATTTCCAAGAAGCGGTACCAGGGGAGCC  180
+            ||||||| |||||||||||||| ||||||||| || | ||||||||||||||||||||||
+Sbjct  224  ACAACCGTATTGTTTCGAAACGGCGATCGGCGCTTGCAAAGAAGCGGTACCAGGGGAGCC  283
+
+Query  181  AGTTCCAACGGTGGATCCAGGCGCTTGCAGTTGCGCGGAAAGAGCTCAATTTGACCAGCT  240
+            |||||||||| |||||| | ||||||||||||||| |||| ||||||||||||||| | |
+Sbjct  284  AGTTCCAACGATGGATCAATGCGCTTGCAGTTGCGAGGAATGAGCTCAATTTGACCGGTT  343
+
+Query  241  TCGTGGCGGTGAATTCGTCGACTGTCCAGGGGAGGGCTTTGTTC  284
+            ||||| | |||||||||||||| || ||||||||||||||||||
+Sbjct  344  TCGTGCCAGTGAATTCGTCGACGGTTCAGGGGAGGGCTTTGTTC  387
+
+
+>GELK01048602.1 TSA: Noctiluca scintillans c32452_g2_i5 transcribed 
+RNA sequence
+Length=569
+
+ Score = 366 bits (198),  Expect = 1e-100
+ Identities = 254/282 (90%), Gaps = 0/282 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGAAGGGGAAGAAACCGAGCGTCATCGCCAGAGGAAGTCGCATGTACGCGGTTGTGTTCT  60
+            |||||| |||||||||||||   |||||||||||||||||||||||||||| ||||||||
+Sbjct  104  TGAAGGCGAAGAAACCGAGCACAATCGCCAGAGGAAGTCGCATGTACGCGGCTGTGTTCT  163
+
+Query  61   CGGGCAGGAAGGAGAAAACGTACACGGGCTTGACCAAGTCTGACCTTCAACGCAATTCCT  120
+            |||||||||||||||| ||||||||||||||||||||||| ||||| |||||||||||||
+Sbjct  164  CGGGCAGGAAGGAGAAGACGTACACGGGCTTGACCAAGTCGGACCTCCAACGCAATTCCT  223
+
+Query  121  ACAACCGCATTGTTTCGAAACGTCGATCGGCGATTTCCAAGAAGCGGTACCAGGGGAGCC  180
+            ||||||| |||||||||||||| ||||||||| || | ||||||||||||||||||||||
+Sbjct  224  ACAACCGTATTGTTTCGAAACGGCGATCGGCGCTTGCAAAGAAGCGGTACCAGGGGAGCC  283
+
+Query  181  AGTTCCAACGGTGGATCCAGGCGCTTGCAGTTGCGCGGAAAGAGCTCAATTTGACCAGCT  240
+            |||||||||| |||||| | ||||||||||||||| |||| ||||||||| |||   |||
+Sbjct  284  AGTTCCAACGATGGATCAATGCGCTTGCAGTTGCGAGGAAGGAGCTCAATCTGAGTGGCT  343
+
+Query  241  TCGTGGCGGTGAATTCGTCGACTGTCCAGGGGAGGGCTTTGT  282
+            ||||| | |||||||| ||||| || ||||||||||| ||||
+Sbjct  344  TCGTGCCAGTGAATTCTTCGACGGTTCAGGGGAGGGCGTTGT  385
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 26048978472
+
+
+  Database: nt
+    Posted date:  Dec 17, 2019  9:31 PM
+  Number of letters in database: 101,260,773
+  Number of sequences in database:  103,616
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

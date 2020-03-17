@@ -1,0 +1,38 @@
+CLUSTAL O(1.2.4) multiple sequence alignment
+
+
+DVNP2_sequenced                  ------------------------------------------------------------	0
+MMETSP0253-20130528|12949_1      CCGTCAAAGCTGATGCCGAAGGGGGTTGTCAAAGGGAAGTGCGCAGCCAAGGTCGCCCGA	60
+                                                                                             
+
+DVNP2_sequenced                  ------------------------------------------------------------	0
+MMETSP0253-20130528|12949_1      GGGCGTGGTGCGAAGGCGCTGGTCCTCAATGGTCGCAGGGAGAGAACGGCGGGAGGTCTG	120
+                                                                                             
+
+DVNP2_sequenced                  --------------GATGAGGAACCGCAGTGGAAAAGTGGTCTCGAAGCGGGCCAGTGCA	46
+MMETSP0253-20130528|12949_1      AAGGCCGACATGTTGATGAGGAACCGCAGTGGAAAAGTGGTCTCGAAGCGGGCCAGTGCA	180
+                                               **********************************************
+
+DVNP2_sequenced                  GCTGGGAGACGCAATTTCGCCACAATTGAGCCATGGTTGCAGGCTGTGATGACTGCCCGC	106
+MMETSP0253-20130528|12949_1      GCTGGGCGACGCAATTTCGCCAAAATTGAGCCATGGCTGCAGGCTGTGATGACTGCCCGC	240
+                                 ****** *************** ************* ***********************
+
+DVNP2_sequenced                  GAGTGTCTCCGGGTGACGGGTTTCGTTGCAATCAACGGGCGCACCTTGCAGGGCAAGGCA	166
+MMETSP0253-20130528|12949_1      GAGTGTCTCCGGGTGACGGGTTTCGTTGCAATCAACGGGCGCACCTTGCAGGGCAAGGCA	300
+                                 ************************************************************
+
+DVNP2_sequenced                  CTGTACGTCAAGTCGAGGGCCATCTACGGATCGGGCTTCAAGGGGACTGAGGCTGATCCA	226
+MMETSP0253-20130528|12949_1      CTGTACGTCAAGTCGAGGGCCATCTACGGATCGGGCGTCAAGGGGACTGAGGCTGATCCA	360
+                                 ************************************ ***********************
+
+DVNP2_sequenced                  GTGTCATCTTCAGCGGCGGCCAGCGCGGGTGCGTGACACTTTGTCGAGCTTGGCGAAGCG	286
+MMETSP0253-20130528|12949_1      GTGTCATCTTCAGCGGCGGCCAGCGCGGGTG-GTGACACCATGTCGAGCTTGGCGAAGCG	419
+                                 ******************************* *******  *******************
+
+DVNP2_sequenced                  GGGCTGTTCTGATGGAGGCCTCATCTTGAATTGGCGCG----------------------	324
+MMETSP0253-20130528|12949_1      GGGCTGTTCTGATGGAGGCCTCATCTTGAATTGGCGCGTGGTTGTTCGAGGGTGGTCGAG	479
+                                 **************************************                      
+
+DVNP2_sequenced                  ----------------	324
+MMETSP0253-20130528|12949_1      CGGCCACATTTGCCNN	495
+                                                 

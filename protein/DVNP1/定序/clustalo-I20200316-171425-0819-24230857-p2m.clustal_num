@@ -1,0 +1,14 @@
+CLUSTAL O(1.2.4) multiple sequence alignment
+
+
+GELK01048600.1_1      AGCLFLPTMALKRPSGKAAPAMKDSSKAAMKPSMKGKKPSAIARGSRMYAAVFSGRKEKT	60
+DVNP1_sequenced       ----------------------------------KGKKPSVIARGSRMYAVVFSGRKEKT	26
+                                                        ******.*********.*********
+
+GELK01048600.1_1      YTGLTKSDLQRNSYNRIVSKRRSALAKKRYQGSRFQRWIQAAAVARKELNVTGFVAVNSS	120
+DVNP1_sequenced       YTGLTKSDLQRNSYNRIVSKRRSAISKKRYQGSQFQRWIQALAVARKELNLTSFVAVNSS	86
+                      ************************::*******:******* ********:*.*******
+
+GELK01048600.1_1      SVQGRALFSKA	131
+DVNP1_sequenced       TVQGRALFS--	95
+                      :********  

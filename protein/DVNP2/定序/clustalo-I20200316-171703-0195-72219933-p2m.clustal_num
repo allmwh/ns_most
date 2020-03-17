@@ -1,0 +1,14 @@
+CLUSTAL O(1.2.4) multiple sequence alignment
+
+
+MMETSP0253-20130528|12949_1      PSKLMPKGVVKGKCAAKVARGRGAKALVLNGRRERTAGGLKADMLMRNRSGKVVSKRASA	60
+DVNP2_sequenced                  ---------------------------------------------MRNRSGKVVSKRASA	15
+                                                                              ***************
+
+MMETSP0253-20130528|12949_1      AGRRNFAKIEPWLQAVMTARECLRVTGFVAINGRTLQGKALYVKSRAIYGSGVKGTEADP	120
+DVNP2_sequenced                  AGRRNFATIEPWLQAVMTARECLRVTGFVAINGRTLQGKALYVKSRAIYGSGFKGTEADP	75
+                                 *******.********************************************.*******
+
+MMETSP0253-20130528|12949_1      VSSSAAASAGGDTMSSLAKRGCSDGGLILNWRVVVRGWSSGHIC	164
+DVNP2_sequenced                  VSSSAAASAGA*HFVELGEAGL------F*WRPHLELAR-----	106
+                                 **********.  : .*.: *       : **  :.        

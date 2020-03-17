@@ -1,0 +1,4 @@
+B_actin1
+B_actin1-F TACTCTTTCACCACCACCGC
+B_actin1-R GCGGATATCGACGTCACACT
+Product length	279

@@ -1,0 +1,4 @@
+B_actin2
+B_actin2-F CATCCCGTATTGCTCACGGA
+B_actin2-R CACACCGTCACCAGAATCCA
+Product length	177

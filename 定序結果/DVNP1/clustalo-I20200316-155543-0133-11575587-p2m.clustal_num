@@ -1,0 +1,30 @@
+CLUSTAL O(1.2.4) multiple sequence alignment
+
+
+GELK01048600.1       GCAGGTTGTTTGTTTCTTTGACCAACGATGGCTTTGAAGAGGCCATCAGGGAAAGCAGCA	60
+DVNP1_sequenced      ------------------------------------------------------------	0
+                                                                                 
+
+GELK01048600.1       CCAGCAATGAAGGACAGTTCCAAGGCGGCCATGAAACCCAGCATGAAGGGGAAGAAACCG	120
+DVNP1_sequenced      -------------------------------------------TGAAGGGGAAGAAACCG	17
+                                                                *****************
+
+GELK01048600.1       AGCGCAATTGCCAGAGGAAGCCGCATGTACGCGGCTGTGTTCTCGGGCAGGAAGGAGAAG	180
+DVNP1_sequenced      AGCGTCATCGCCAGAGGAAGTCGCATGTACGCGGTTGTGTTCTCGGGCAGGAAGGAGAAA	77
+                     ****  ** *********** ************* ************************ 
+
+GELK01048600.1       ACGTACACGGGCTTGACCAAGTCGGACCTCCAACGCAATTCCTACAACCGTATTGTTTCG	240
+DVNP1_sequenced      ACGTACACGGGCTTGACCAAGTCTGACCTTCAACGCAATTCCTACAACCGCATTGTTTCG	137
+                     *********************** ***** ******************** *********
+
+GELK01048600.1       AAACGGCGATCGGCGCTCGCCAAGAAGCGGTACCAGGGGAGCCGGTTCCAACGGTGGATC	300
+DVNP1_sequenced      AAACGTCGATCGGCGATTTCCAAGAAGCGGTACCAGGGGAGCCAGTTCCAACGGTGGATC	197
+                     ***** ********* *  ************************ ****************
+
+GELK01048600.1       CAGGCGGCTGCTGTTGCGCGGAAGGAGCTCAATGTGACCGGCTTCGTGGCGGTGAATTCG	360
+DVNP1_sequenced      CAGGCGCTTGCAGTTGCGCGGAAAGAGCTCAATTTGACCAGCTTCGTGGCGGTGAATTCG	257
+                     ******  *** *********** ********* ***** ********************
+
+GELK01048600.1       TCCAGTGTTCAGGGGAGGGCTTTGTTCTCGAAAGCCC	397
+DVNP1_sequenced      TCGACTGTCCAGGGGAGGGCTTTGTTCTCGAA-----	289
+                     ** * *** ***********************     
