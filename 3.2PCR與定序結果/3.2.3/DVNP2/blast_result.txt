@@ -1,0 +1,363 @@
+BLASTP 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: NS_all.pep
+           104,219 sequences; 33,765,050 total letters
+
+
+
+Query= DVNP2_sequenced
+
+Length=108
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CAMPEP_0194495298 /NCGR_PEP_ID=MMETSP0253-20130528|12949_1 /TAXON...  152        4e-48
+CAMPEP_0194489776 /NCGR_PEP_ID=MMETSP0253-20130528|9206_1 /TAXON_...  88.6       1e-23
+CAMPEP_0194506450 /NCGR_PEP_ID=MMETSP0253-20130528|34991_1 /TAXON...  72.0       2e-16
+CAMPEP_0194512332 /NCGR_PEP_ID=MMETSP0253-20130528|44304_1 /TAXON...  60.5       2e-12
+CAMPEP_0194484792 /NCGR_PEP_ID=MMETSP0253-20130528|6017_1 /TAXON_...  59.7       3e-12
+GELK01048601.1_1 TSA: Noctiluca scintillans c32452_g2_i4 transcri...  60.5       5e-12
+CAMPEP_0194549840 /NCGR_PEP_ID=MMETSP0253-20130528|95411_1 /TAXON...  60.1       6e-12
+CAMPEP_0194549564 /NCGR_PEP_ID=MMETSP0253-20130528|95269_1 /TAXON...  57.8       9e-12
+CAMPEP_0194499310 /NCGR_PEP_ID=MMETSP0253-20130528|15654_1 /TAXON...  58.9       1e-11
+GELK01048602.1_1 TSA: Noctiluca scintillans c32452_g2_i5 transcri...  58.2       3e-11
+GELK01048600.1_1 TSA: Noctiluca scintillans c32452_g2_i3 transcri...  52.4       2e-09
+CAMPEP_0194482314 /NCGR_PEP_ID=MMETSP0253-20130528|4327_1 /TAXON_...  49.3       6e-09
+CAMPEP_0194477284 /NCGR_PEP_ID=MMETSP0253-20130528|1061_1 /TAXON_...  47.4       5e-08
+CAMPEP_0194500118 /NCGR_PEP_ID=MMETSP0253-20130528|16463_1 /TAXON...  44.3       3e-07
+CAMPEP_0194477662 /NCGR_PEP_ID=MMETSP0253-20130528|1359_1 /TAXON_...  44.3       1e-06
+CAMPEP_0194476234 /NCGR_PEP_ID=MMETSP0253-20130528|146_1 /TAXON_I...  42.4       2e-06
+CAMPEP_0194505674 /NCGR_PEP_ID=MMETSP0253-20130528|32960_1 /TAXON...  41.6       3e-05
+CAMPEP_0194508606 /NCGR_PEP_ID=MMETSP0253-20130528|38973_1 /TAXON...  41.6       3e-05
+GELK01047595.1_1 TSA: Noctiluca scintillans c32231_g3_i3 transcri...  26.6       9.3  
+
+
+>CAMPEP_0194495298 /NCGR_PEP_ID=MMETSP0253-20130528|12949_1 /TAXON_ID=2966 
+/ORGANISM="Noctiluca scintillans" /LENGTH=165 /DNA_ID=CAMNT_0039336541 
+/DNA_START=1 /DNA_END=494 /DNA_ORIENTATION=+
+Length=165
+
+ Score = 152 bits (383),  Expect = 4e-48, Method: Compositional matrix adjust.
+ Identities = 85/96 (89%), Positives = 86/96 (90%), Gaps = 0/96 (0%)
+
+Query  1    MRNRSGKVVSKRASAAGRRNFATIEPWLQAVMTARECLRVTGFVAINGRTLQGKALYVKS  60
+            MRNRSGKVVSKRASAAGRRNFA IEPWLQAVMTARECLRVTGFVAINGRTLQGKALYVKS
+Sbjct  46   MRNRSGKVVSKRASAAGRRNFAKIEPWLQAVMTARECLRVTGFVAINGRTLQGKALYVKS  105
+
+Query  61   RAIYGSGFKGTEADPVSSSAAASAGA*HFVELGEAG  96
+            RAIYGSG KGTEADPVSSSAAASAG      L + G
+Sbjct  106  RAIYGSGVKGTEADPVSSSAAASAGGDTMSSLAKRG  141
+
+
+>CAMPEP_0194489776 /NCGR_PEP_ID=MMETSP0253-20130528|9206_1 /TAXON_ID=2966 
+/ORGANISM="Noctiluca scintillans" /LENGTH=127 /DNA_ID=CAMNT_0039330297 
+/DNA_START=1 /DNA_END=383 /DNA_ORIENTATION=-
+Length=127
+
+ Score = 88.6 bits (218),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 42/70 (60%), Positives = 55/70 (79%), Gaps = 0/70 (0%)
+
+Query  1    MRNRSGKVVSKRASAAGRRNFATIEPWLQAVMTARECLRVTGFVAINGRTLQGKALYVKS  60
+             +N+ GKVVSK+ASAAG+R +  IE W++A M+AR  LRVTGF  +NGRTL GKALYVK+
+Sbjct  57   FKNKRGKVVSKKASAAGQRQYRNIEAWVEAHMSARAALRVTGFAPLNGRTLTGKALYVKT  116
+
+Query  61   RAIYGSGFKG  70
+            RA+Y +  +G
+Sbjct  117  RALYAASRQG  126
+
+
+>CAMPEP_0194506450 /NCGR_PEP_ID=MMETSP0253-20130528|34991_1 /TAXON_ID=2966 
+/ORGANISM="Noctiluca scintillans" /LENGTH=208 /DNA_ID=CAMNT_0039349201 
+/DNA_START=1 /DNA_END=627 /DNA_ORIENTATION=+
+Length=208
+
+ Score = 72.0 bits (175),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 35/66 (53%), Positives = 46/66 (70%), Gaps = 0/66 (0%)
+
+Query  1    MRNRSGKVVSKRASAAGRRNFATIEPWLQAVMTARECLRVTGFVAINGRTLQGKALYVKS  60
+            M N+ G+VVSK+  A G   F  I  W+ AV+ AR+ L + GFV ING+TL G++LYVKS
+Sbjct  130  MINKRGRVVSKKKHALGVHFFCRISTWVDAVLEARKQLNIVGFVPINGKTLAGRSLYVKS  189
+
+Query  61   RAIYGS  66
+            RAIY +
+Sbjct  190  RAIYAA  195
+
+
+>CAMPEP_0194512332 /NCGR_PEP_ID=MMETSP0253-20130528|44304_1 /TAXON_ID=2966 
+/ORGANISM="Noctiluca scintillans" /LENGTH=130 /DNA_ID=CAMNT_0039355763 
+/DNA_START=1 /DNA_END=392 /DNA_ORIENTATION=-
+Length=130
+
+ Score = 60.5 bits (145),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 30/66 (45%), Positives = 48/66 (73%), Gaps = 2/66 (3%)
+
+Query  1    MRNRSGKVVSKRASAAGRRNF--ATIEPWLQAVMTARECLRVTGFVAINGRTLQGKALYV  58
+            M+N  G++VSKR+SA  R+ +  +  + W +AV+ AR+ L + GFVA+N  + QG+ALYV
+Sbjct  61   MKNADGRIVSKRSSALSRKRWVGSRCQEWNKAVVAARKQLSLVGFVAVNSPSPQGRALYV  120
+
+Query  59   KSRAIY  64
+            K+R+I+
+Sbjct  121  KARSIF  126
+
+
+>CAMPEP_0194484792 /NCGR_PEP_ID=MMETSP0253-20130528|6017_1 /TAXON_ID=2966 
+/ORGANISM="Noctiluca scintillans" /LENGTH=140 /DNA_ID=CAMNT_0039324663 
+/DNA_START=64 /DNA_END=481 /DNA_ORIENTATION=-
+Length=140
+
+ Score = 59.7 bits (143),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 31/64 (48%), Positives = 45/64 (70%), Gaps = 3/64 (5%)
+
+Query  3    NRSGKVVSKRASAAGRRNF--ATIEPWLQAVMTARECLRVTGFVAINGRTLQGKALYVKS  60
+            NR GK+V K+ SA G++NF  + +E W +A   AR+ L + GFVA++  T QG+ALY K+
+Sbjct  76   NRKGKIVPKKRSALGKKNFKGSKLEAWGKACTAARKELNIVGFVAMDS-TPQGRALYAKT  134
+
+Query  61   RAIY  64
+            +AIY
+Sbjct  135  KAIY  138
+
+
+>GELK01048601.1_1 TSA: Noctiluca scintillans c32452_g2_i4 transcribed 
+RNA sequence
+Length=198
+
+ Score = 60.5 bits (145),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 29/65 (45%), Positives = 44/65 (68%), Gaps = 2/65 (3%)
+
+Query  2    RNRSGKVVSKRASAAGRRNF--ATIEPWLQAVMTARECLRVTGFVAINGRTLQGKALYVK  59
+            RN   ++VSKR SA  ++ +  +  + W+ A+  AR  L +TGFV +N  T+QG+AL+VK
+Sbjct  72   RNSYNRIVSKRRSALAKKRYQGSQFQRWINALAVARNELNLTGFVPVNSSTVQGRALFVK  131
+
+Query  60   SRAIY  64
+            +RAIY
+Sbjct  132  ARAIY  136
+
+
+>CAMPEP_0194549840 /NCGR_PEP_ID=MMETSP0253-20130528|95411_1 /TAXON_ID=2966 
+/ORGANISM="Noctiluca scintillans" /LENGTH=186 /DNA_ID=CAMNT_0039397273 
+/DNA_START=1 /DNA_END=559 /DNA_ORIENTATION=-
+Length=186
+
+ Score = 60.1 bits (144),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 29/66 (44%), Positives = 46/66 (70%), Gaps = 2/66 (3%)
+
+Query  1    MRNRSGKVVSKRASAAGRRNF--ATIEPWLQAVMTARECLRVTGFVAINGRTLQGKALYV  58
+             RN   ++VSK+ SA  ++ +  +  + W+QA   AR+ L VTGFVA+N  ++QG+AL++
+Sbjct  117  QRNSYNRIVSKQRSALAKKRYQGSRFQRWIQAAAVARKELNVTGFVAVNSSSVQGRALFL  176
+
+Query  59   KSRAIY  64
+            K+RAIY
+Sbjct  177  KARAIY  182
+
+
+>CAMPEP_0194549564 /NCGR_PEP_ID=MMETSP0253-20130528|95269_1 /TAXON_ID=2966 
+/ORGANISM="Noctiluca scintillans" /LENGTH=107 /DNA_ID=CAMNT_0039396995 
+/DNA_START=1 /DNA_END=322 /DNA_ORIENTATION=+
+Length=107
+
+ Score = 57.8 bits (138),  Expect = 9e-12, Method: Compositional matrix adjust.
+ Identities = 29/64 (45%), Positives = 46/64 (72%), Gaps = 3/64 (5%)
+
+Query  3    NRSGKVVSKRASAAGRRNF--ATIEPWLQAVMTARECLRVTGFVAINGRTLQGKALYVKS  60
+            ++ GK+VSK+ S A +++F  + +E W +A   AR+ L + GFVA++  TLQG+ALY K+
+Sbjct  41   SKKGKIVSKKMSIASKKHFKGSKLEAWGKACTAARKELHLVGFVAMDS-TLQGRALYAKT  99
+
+Query  61   RAIY  64
+            +AIY
+Sbjct  100  KAIY  103
+
+
+>CAMPEP_0194499310 /NCGR_PEP_ID=MMETSP0253-20130528|15654_1 /TAXON_ID=2966 
+/ORGANISM="Noctiluca scintillans" /LENGTH=163 /DNA_ID=CAMNT_0039341047 
+/DNA_START=1 /DNA_END=491 /DNA_ORIENTATION=+
+Length=163
+
+ Score = 58.9 bits (141),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 27/65 (42%), Positives = 46/65 (71%), Gaps = 2/65 (3%)
+
+Query  2    RNRSGKVVSKRASAAGRRNF--ATIEPWLQAVMTARECLRVTGFVAINGRTLQGKALYVK  59
+            RN+ GK+V+KR SA  ++ +  + ++ W++AV  AR+ L ++G+V +N  T +G+ALY K
+Sbjct  93   RNKVGKIVTKRKSALAKKRYEGSKLQQWVKAVTVARKQLSLSGYVGLNSPTPEGRALYAK  152
+
+Query  60   SRAIY  64
+            +RA Y
+Sbjct  153  ARANY  157
+
+
+>GELK01048602.1_1 TSA: Noctiluca scintillans c32452_g2_i5 transcribed 
+RNA sequence
+Length=190
+
+ Score = 58.2 bits (139),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 28/65 (43%), Positives = 44/65 (68%), Gaps = 2/65 (3%)
+
+Query  2    RNRSGKVVSKRASAAGRRNF--ATIEPWLQAVMTARECLRVTGFVAINGRTLQGKALYVK  59
+            RN   ++VSKR SA  ++ +  +  + W+ A+  AR+ L ++GFV +N  T+QG+ALYVK
+Sbjct  72   RNSYNRIVSKRRSALAKKRYQGSQFQRWINALAVARKELNLSGFVPVNSSTVQGRALYVK  131
+
+Query  60   SRAIY  64
+            +R IY
+Sbjct  132  ARTIY  136
+
+
+>GELK01048600.1_1 TSA: Noctiluca scintillans c32452_g2_i3 transcribed 
+RNA sequence
+Length=133
+
+ Score = 52.4 bits (124),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 26/61 (43%), Positives = 41/61 (67%), Gaps = 2/61 (3%)
+
+Query  2    RNRSGKVVSKRASAAGRRNF--ATIEPWLQAVMTARECLRVTGFVAINGRTLQGKALYVK  59
+            RN   ++VSKR SA  ++ +  +  + W+QA   AR+ L VTGFVA+N  ++QG+AL+ K
+Sbjct  72   RNSYNRIVSKRRSALAKKRYQGSRFQRWIQAAAVARKELNVTGFVAVNSSSVQGRALFSK  131
+
+Query  60   S  60
+            +
+Sbjct  132  A  132
+
+
+>CAMPEP_0194482314 /NCGR_PEP_ID=MMETSP0253-20130528|4327_1 /TAXON_ID=2966 
+/ORGANISM="Noctiluca scintillans" /LENGTH=51 /DNA_ID=CAMNT_0039321851 
+/DNA_START=1 /DNA_END=155 /DNA_ORIENTATION=+
+Length=51
+
+ Score = 49.3 bits (116),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 21/41 (51%), Positives = 30/41 (73%), Gaps = 0/41 (0%)
+
+Query  24  IEPWLQAVMTARECLRVTGFVAINGRTLQGKALYVKSRAIY  64
+            + W++A   AR+ L +TGFV +N  T+QG+ALYVK+R IY
+Sbjct  7   FQRWIKAAAAARKELNLTGFVPVNSSTVQGRALYVKARTIY  47
+
+
+>CAMPEP_0194477284 /NCGR_PEP_ID=MMETSP0253-20130528|1061_1 /TAXON_ID=2966 
+/ORGANISM="Noctiluca scintillans" /LENGTH=66 /DNA_ID=CAMNT_0039316243 
+/DNA_START=1 /DNA_END=194 /DNA_ORIENTATION=+
+Length=66
+
+ Score = 47.4 bits (111),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 23/59 (39%), Positives = 37/59 (63%), Gaps = 2/59 (3%)
+
+Query  1   MRNRSGKVVSKRASAAGRRNF--ATIEPWLQAVMTARECLRVTGFVAINGRTLQGKALY  57
+            RN   ++VSKR SA  ++ +  +  + W++A   AR  L +TGFV +N  T+QG+AL+
+Sbjct  7   QRNSYNRIVSKRRSALAKKRYQGSRFQRWIKAAAAARNELNLTGFVLVNSSTVQGRALF  65
+
+
+>CAMPEP_0194500118 /NCGR_PEP_ID=MMETSP0253-20130528|16463_1 /TAXON_ID=2966 
+/ORGANISM="Noctiluca scintillans" /LENGTH=34 /DNA_ID= 
+/DNA_START= /DNA_END= /DNA_ORIENTATION=
+Length=34
+
+ Score = 44.3 bits (103),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 20/30 (67%), Positives = 25/30 (83%), Gaps = 0/30 (0%)
+
+Query  35  RECLRVTGFVAINGRTLQGKALYVKSRAIY  64
+           R+ L V+GFVA+N  T QGKALYVK+RA+Y
+Sbjct  1   RKQLSVSGFVAVNSSTPQGKALYVKARALY  30
+
+
+>CAMPEP_0194477662 /NCGR_PEP_ID=MMETSP0253-20130528|1359_1 /TAXON_ID=2966 
+/ORGANISM="Noctiluca scintillans" /LENGTH=100 /DNA_ID=CAMNT_0039316671 
+/DNA_START=94 /DNA_END=392 /DNA_ORIENTATION=+
+Length=100
+
+ Score = 44.3 bits (103),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 21/46 (46%), Positives = 36/46 (78%), Gaps = 2/46 (4%)
+
+Query  3   NRSGKVVSKRASAAGRRNFATIEP--WLQAVMTARECLRVTGFVAI  46
+           ++SGK+V+K++SAA R+ +    P  W++AV++AR+ L V+GFVA+
+Sbjct  54  SKSGKIVTKKSSAAARKRWEGSRPQQWIKAVVSARKQLSVSGFVAV  99
+
+
+>CAMPEP_0194476234 /NCGR_PEP_ID=MMETSP0253-20130528|146_1 /TAXON_ID=2966 
+/ORGANISM="Noctiluca scintillans" /LENGTH=35 /DNA_ID= 
+/DNA_START= /DNA_END= /DNA_ORIENTATION=
+Length=35
+
+ Score = 42.4 bits (98),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 19/30 (63%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  35  RECLRVTGFVAINGRTLQGKALYVKSRAIY  64
+           R+ L V+GFVA+N    QGKALYVK+RA+Y
+Sbjct  2   RKQLSVSGFVAVNSSAPQGKALYVKARALY  31
+
+
+>CAMPEP_0194505674 /NCGR_PEP_ID=MMETSP0253-20130528|32960_1 /TAXON_ID=2966 
+/ORGANISM="Noctiluca scintillans" /LENGTH=156 /DNA_ID=CAMNT_0039348273 
+/DNA_START=1 /DNA_END=469 /DNA_ORIENTATION=+
+Length=156
+
+ Score = 41.6 bits (96),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 22/68 (32%), Positives = 41/68 (60%), Gaps = 4/68 (6%)
+
+Query  1    MRNRSGKVVSKRASAAGRRNFAT--IEPWLQAVMTARECLRVTGFVAINGRT--LQGKAL  56
+            M++++GK+VSK+  A G+  +    ++ W + V+ AR+ + + GFV I G++    G AL
+Sbjct  51   MKSKTGKIVSKKQHANGKVRYIKNGLDAWSRGVVAARKEMNIQGFVPIGGKSNASTGTAL  110
+
+Query  57   YVKSRAIY  64
+            Y +   +Y
+Sbjct  111  YARVAELY  118
+
+
+>CAMPEP_0194508606 /NCGR_PEP_ID=MMETSP0253-20130528|38973_1 /TAXON_ID=2966 
+/ORGANISM="Noctiluca scintillans" /LENGTH=169 /DNA_ID=CAMNT_0039351669 
+/DNA_START=1 /DNA_END=509 /DNA_ORIENTATION=+
+Length=169
+
+ Score = 41.6 bits (96),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 20/55 (36%), Positives = 36/55 (65%), Gaps = 2/55 (4%)
+
+Query  1    MRNRSGKVVSKRASAAGRRNFAT--IEPWLQAVMTARECLRVTGFVAINGRTLQG  53
+            M+N++G+VVSK+  A G+  +A   ++ W + ++ AR  L + GFVA+ G++  G
+Sbjct  58   MKNKAGRVVSKKMHANGKLRYARNGLDAWSRGLVEARRELNLKGFVAVRGKSKDG  112
+
+
+>GELK01047595.1_1 TSA: Noctiluca scintillans c32231_g3_i3 transcribed 
+RNA sequence
+Length=531
+
+ Score = 26.6 bits (57),  Expect = 9.3, Method: Compositional matrix adjust.
+ Identities = 14/24 (58%), Positives = 17/24 (71%), Gaps = 1/24 (4%)
+
+Query  18  RRNFATI-EPWLQAVMTARECLRV  40
+           R+  ATI E WL AV + R+CLRV
+Sbjct  73  RQRPATILERWLSAVHSQRDCLRV  96
+
+
+
+Lambda      K        H        a         alpha
+   0.331    0.138    0.425    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 827020992
+
+
+  Database: NS_all.pep
+    Posted date:  Oct 16, 2019  11:09 PM
+  Number of letters in database: 33,765,050
+  Number of sequences in database:  104,219
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

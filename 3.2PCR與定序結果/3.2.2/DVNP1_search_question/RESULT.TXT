@@ -1,0 +1,358 @@
+BLASTN 2.9.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: nt
+           103,616 sequences; 101,260,773 total letters
+
+
+
+Query= GELK01048600.1 TSA: Noctiluca scintillans c32452_g2_i3 transcribed
+RNA sequence
+
+Length=397
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+GELK01048600.1 TSA: Noctiluca scintillans c32452_g2_i3 transcribe...  734        0.0   
+GELK01048599.1 TSA: Noctiluca scintillans c32452_g2_i2 transcribe...  568        4e-161
+GELK01048602.1 TSA: Noctiluca scintillans c32452_g2_i5 transcribe...  545        2e-154
+GELK01048601.1 TSA: Noctiluca scintillans c32452_g2_i4 transcribe...  538        3e-152
+MMETSP0253-20130528|95411_1 len=561                                   459        2e-128
+GELK01048598.1 TSA: Noctiluca scintillans c32452_g2_i1 transcribe...  459        2e-128
+MMETSP0253-20130528|1061_1 len=198                                    291        9e-78 
+MMETSP0253-20130528|21029_1 len=231                                   267        2e-70 
+MMETSP0253-20130528|24641_1 len=165                                   228        7e-59 
+
+
+>GELK01048600.1 TSA: Noctiluca scintillans c32452_g2_i3 transcribed 
+RNA sequence
+Length=397
+
+ Score = 734 bits (397),  Expect = 0.0
+ Identities = 397/397 (100%), Gaps = 0/397 (0%)
+ Strand=Plus/Plus
+
+Query  1    GCAGGTTGTTTGTTTCTTTGACCAACGATGGCTTTGAAGAGGCCATCAGGGAAAGCAGCA  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    GCAGGTTGTTTGTTTCTTTGACCAACGATGGCTTTGAAGAGGCCATCAGGGAAAGCAGCA  60
+
+Query  61   CCAGCAATGAAGGACAGTTCCAAGGCGGCCATGAAACCCAGCATGAAGGGGAAGAAACCG  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   CCAGCAATGAAGGACAGTTCCAAGGCGGCCATGAAACCCAGCATGAAGGGGAAGAAACCG  120
+
+Query  121  AGCGCAATTGCCAGAGGAAGCCGCATGTACGCGGCTGTGTTCTCGGGCAGGAAGGAGAAG  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  AGCGCAATTGCCAGAGGAAGCCGCATGTACGCGGCTGTGTTCTCGGGCAGGAAGGAGAAG  180
+
+Query  181  ACGTACACGGGCTTGACCAAGTCGGACCTCCAACGCAATTCCTACAACCGTATTGTTTCG  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  ACGTACACGGGCTTGACCAAGTCGGACCTCCAACGCAATTCCTACAACCGTATTGTTTCG  240
+
+Query  241  AAACGGCGATCGGCGCTCGCCAAGAAGCGGTACCAGGGGAGCCGGTTCCAACGGTGGATC  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  AAACGGCGATCGGCGCTCGCCAAGAAGCGGTACCAGGGGAGCCGGTTCCAACGGTGGATC  300
+
+Query  301  CAGGCGGCTGCTGTTGCGCGGAAGGAGCTCAATGTGACCGGCTTCGTGGCGGTGAATTCG  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  CAGGCGGCTGCTGTTGCGCGGAAGGAGCTCAATGTGACCGGCTTCGTGGCGGTGAATTCG  360
+
+Query  361  TCCAGTGTTCAGGGGAGGGCTTTGTTCTCGAAAGCCC  397
+            |||||||||||||||||||||||||||||||||||||
+Sbjct  361  TCCAGTGTTCAGGGGAGGGCTTTGTTCTCGAAAGCCC  397
+
+
+>GELK01048599.1 TSA: Noctiluca scintillans c32452_g2_i2 transcribed 
+RNA sequence
+Length=431
+
+ Score = 568 bits (307),  Expect = 4e-161
+ Identities = 368/398 (92%), Gaps = 2/398 (1%)
+ Strand=Plus/Plus
+
+Query  1    GCAGGTTGTTTGT-TTCTTTGACCAACGATGGCTTTGAAGAGGCCATCAGGGAAAGCAGC  59
+            |||||||||| || ||| |||  || |||||| ||||||||||||||||||||| |||||
+Sbjct  35   GCAGGTTGTTGGTCTTC-TTGTGCAGCGATGGTTTTGAAGAGGCCATCAGGGAAGGCAGC  93
+
+Query  60   ACCAGCAATGAAGGACAGTTCCAAGGCGGCCATGAAACCCAGCATGAAGGGGAAGAAACC  119
+            | |||||||||||| ||||||||||||||||||||| || | |||||||||||||  |||
+Sbjct  94   AACAGCAATGAAGGGCAGTTCCAAGGCGGCCATGAAGCCGATCATGAAGGGGAAGCGACC  153
+
+Query  120  GAGCGCAATTGCCAGAGGAAGCCGCATGTACGCGGCTGTGTTCTCGGGCAGGAAGGAGAA  179
+             |||||||| ||||||||||| || ||||| |||||||||||||||||||||||||||||
+Sbjct  154  AAGCGCAATCGCCAGAGGAAGTCGGATGTATGCGGCTGTGTTCTCGGGCAGGAAGGAGAA  213
+
+Query  180  GACGTACACGGGCTTGACCAAGTCGGACCTCCAACGCAATTCCTACAACCGTATTGTTTC  239
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  214  GACGTACACGGGCTTGACCAAGTCGGACCTCCAACGCAATTCCTACAACCGTATTGTTTC  273
+
+Query  240  GAAACGGCGATCGGCGCTCGCCAAGAAGCGGTACCAGGGGAGCCGGTTCCAACGGTGGAT  299
+            ||||| ||||||||| || |||||||||||||||||||||||||||||||||||||||||
+Sbjct  274  GAAACAGCGATCGGCCCTTGCCAAGAAGCGGTACCAGGGGAGCCGGTTCCAACGGTGGAT  333
+
+Query  300  CCAGGCGGCTGCTGTTGCGCGGAAGGAGCTCAATGTGACCGGCTTCGTGGCGGTGAATTC  359
+            |||||||||||||||||||||||||||||||||| ||||||||||||||  |||||||||
+Sbjct  334  CCAGGCGGCTGCTGTTGCGCGGAAGGAGCTCAATTTGACCGGCTTCGTGCTGGTGAATTC  393
+
+Query  360  GTCCAGTGTTCAGGGGAGGGCTTTGTTCTCGAAAGCCC  397
+            ||| | ||||||||||||||||||||||  ||||||||
+Sbjct  394  GTCGACTGTTCAGGGGAGGGCTTTGTTCATGAAAGCCC  431
+
+
+>GELK01048602.1 TSA: Noctiluca scintillans c32452_g2_i5 transcribed 
+RNA sequence
+Length=569
+
+ Score = 545 bits (295),  Expect = 2e-154
+ Identities = 363/397 (91%), Gaps = 0/397 (0%)
+ Strand=Plus/Plus
+
+Query  1    GCAGGTTGTTTGTTTCTTTGACCAACGATGGCTTTGAAGAGGCCATCAGGGAAAGCAGCA  60
+            |||||||||||| ||||||||||||||||||||||||||||||| |||||||| ||||||
+Sbjct  1    GCAGGTTGTTTGCTTCTTTGACCAACGATGGCTTTGAAGAGGCCTTCAGGGAAGGCAGCA  60
+
+Query  61   CCAGCAATGAAGGACAGTTCCAAGGCGGCCATGAAACCCAGCATGAAGGGGAAGAAACCG  120
+            ||||||||||||| |||||||||||| | |||||| ||||||||||||| ||||||||||
+Sbjct  61   CCAGCAATGAAGGGCAGTTCCAAGGCCGTCATGAAGCCCAGCATGAAGGCGAAGAAACCG  120
+
+Query  121  AGCGCAATTGCCAGAGGAAGCCGCATGTACGCGGCTGTGTTCTCGGGCAGGAAGGAGAAG  180
+            ||| |||| ||||||||||| |||||||||||||||||||||||||||||||||||||||
+Sbjct  121  AGCACAATCGCCAGAGGAAGTCGCATGTACGCGGCTGTGTTCTCGGGCAGGAAGGAGAAG  180
+
+Query  181  ACGTACACGGGCTTGACCAAGTCGGACCTCCAACGCAATTCCTACAACCGTATTGTTTCG  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  ACGTACACGGGCTTGACCAAGTCGGACCTCCAACGCAATTCCTACAACCGTATTGTTTCG  240
+
+Query  241  AAACGGCGATCGGCGCTCGCCAAGAAGCGGTACCAGGGGAGCCGGTTCCAACGGTGGATC  300
+            ||||||||||||||||| || |||||||||||||||||||||| ||||||||| ||||||
+Sbjct  241  AAACGGCGATCGGCGCTTGCAAAGAAGCGGTACCAGGGGAGCCAGTTCCAACGATGGATC  300
+
+Query  301  CAGGCGGCTGCTGTTGCGCGGAAGGAGCTCAATGTGACCGGCTTCGTGGCGGTGAATTCG  360
+             | |||  ||| |||||| |||||||||||||| |||  ||||||||| | |||||||| 
+Sbjct  301  AATGCGCTTGCAGTTGCGAGGAAGGAGCTCAATCTGAGTGGCTTCGTGCCAGTGAATTCT  360
+
+Query  361  TCCAGTGTTCAGGGGAGGGCTTTGTTCTCGAAAGCCC  397
+            || |  |||||||||||||| |||| |  ||||||||
+Sbjct  361  TCGACGGTTCAGGGGAGGGCGTTGTACGTGAAAGCCC  397
+
+
+>GELK01048601.1 TSA: Noctiluca scintillans c32452_g2_i4 transcribed 
+RNA sequence
+Length=592
+
+ Score = 538 bits (291),  Expect = 3e-152
+ Identities = 361/396 (91%), Gaps = 0/396 (0%)
+ Strand=Plus/Plus
+
+Query  1    GCAGGTTGTTTGTTTCTTTGACCAACGATGGCTTTGAAGAGGCCATCAGGGAAAGCAGCA  60
+            ||||||||||||||||||||||||||||||||||||| |||| |||| ||||| ||||||
+Sbjct  1    GCAGGTTGTTTGTTTCTTTGACCAACGATGGCTTTGATGAGGACATCCGGGAAGGCAGCA  60
+
+Query  61   CCAGCAATGAAGGACAGTTCCAAGGCGGCCATGAAACCCAGCATGAAGGGGAAGAAACCG  120
+             |||||| ||||| ||||||| ||||||||||||||||||||||||||||||||   |||
+Sbjct  61   TCAGCAACGAAGGGCAGTTCCGAGGCGGCCATGAAACCCAGCATGAAGGGGAAGCGGCCG  120
+
+Query  121  AGCGCAATTGCCAGAGGAAGCCGCATGTACGCGGCTGTGTTCTCGGGCAGGAAGGAGAAG  180
+            ||||| || ||||||||||| || ||||||||||||||||||||||||||||||||||||
+Sbjct  121  AGCGCCATCGCCAGAGGAAGTCGGATGTACGCGGCTGTGTTCTCGGGCAGGAAGGAGAAG  180
+
+Query  181  ACGTACACGGGCTTGACCAAGTCGGACCTCCAACGCAATTCCTACAACCGTATTGTTTCG  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  ACGTACACGGGCTTGACCAAGTCGGACCTCCAACGCAATTCCTACAACCGTATTGTTTCG  240
+
+Query  241  AAACGGCGATCGGCGCTCGCCAAGAAGCGGTACCAGGGGAGCCGGTTCCAACGGTGGATC  300
+            ||||||||||||||||| || |||||||||||||||||||||| ||||||||| ||||||
+Sbjct  241  AAACGGCGATCGGCGCTTGCAAAGAAGCGGTACCAGGGGAGCCAGTTCCAACGATGGATC  300
+
+Query  301  CAGGCGGCTGCTGTTGCGCGGAAGGAGCTCAATGTGACCGGCTTCGTGGCGGTGAATTCG  360
+             | |||  ||| |||||| |||| ||||||||| ||||||| |||||| | |||||||||
+Sbjct  301  AATGCGCTTGCAGTTGCGAGGAATGAGCTCAATTTGACCGGTTTCGTGCCAGTGAATTCG  360
+
+Query  361  TCCAGTGTTCAGGGGAGGGCTTTGTTCTCGAAAGCC  396
+            || |  |||||||||||||||||||||  |||||||
+Sbjct  361  TCGACGGTTCAGGGGAGGGCTTTGTTCGTGAAAGCC  396
+
+
+>MMETSP0253-20130528|95411_1 len=561
+Length=559
+
+ Score = 459 bits (248),  Expect = 2e-128
+ Identities = 312/344 (91%), Gaps = 0/344 (0%)
+ Strand=Plus/Plus
+
+Query  35   TGAAGAGGCCATCAGGGAAAGCAGCACCAGCAATGAAGGACAGTTCCAAGGCGGCCATGA  94
+            ||||||||||||||||||| |||||| |||||||||||| ||| ||||||||||||||||
+Sbjct  1    TGAAGAGGCCATCAGGGAAGGCAGCAACAGCAATGAAGGGCAGCTCCAAGGCGGCCATGA  60
+
+Query  95   AACCCAGCATGAAGGGGAAGAAACCGAGCGCAATTGCCAGAGGAAGCCGCATGTACGCGG  154
+            | ||||||||||||||||||   ||||||||||| ||||||||||| || ||||| ||||
+Sbjct  61   AGCCCAGCATGAAGGGGAAGCGGCCGAGCGCAATCGCCAGAGGAAGTCGGATGTATGCGG  120
+
+Query  155  CTGTGTTCTCGGGCAGGAAGGAGAAGACGTACACGGGCTTGACCAAGTCGGACCTCCAAC  214
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  CTGTGTTCTCGGGCAGGAAGGAGAAGACGTACACGGGCTTGACCAAGTCGGACCTCCAAC  180
+
+Query  215  GCAATTCCTACAACCGTATTGTTTCGAAACGGCGATCGGCGCTCGCCAAGAAGCGGTACC  274
+            ||||||||||||||||||||||||||||||||||||||||| | ||||||||||| ||||
+Sbjct  181  GCAATTCCTACAACCGTATTGTTTCGAAACGGCGATCGGCGATTGCCAAGAAGCGATACC  240
+
+Query  275  AGGGGAGCCGGTTCCAACGGTGGATCCAGGCGGCTGCTGTTGCGCGGAAGGAGCTCAATG  334
+            |||| |||  ||||||||| |||||| |||||||||| | |||| |||||||||||||| 
+Sbjct  241  AGGGAAGCAAGTTCCAACGATGGATCAAGGCGGCTGCAGCTGCGAGGAAGGAGCTCAATC  300
+
+Query  335  TGACCGGCTTCGTGGCGGTGAATTCGTCCAGTGTTCAGGGGAGG  378
+            |||  ||||||||| | |||||||| || |  ||||||||||||
+Sbjct  301  TGAGTGGCTTCGTGCCAGTGAATTCTTCGACGGTTCAGGGGAGG  344
+
+
+ Score = 322 bits (174),  Expect = 3e-87
+ Identities = 184/189 (97%), Gaps = 0/189 (0%)
+ Strand=Plus/Plus
+
+Query  209  TCCAACGCAATTCCTACAACCGTATTGTTTCGAAACGGCGATCGGCGCTCGCCAAGAAGC  268
+            |||||||||||||||||||||||||||||||||||| ||||||||| || ||||||||||
+Sbjct  345  TCCAACGCAATTCCTACAACCGTATTGTTTCGAAACAGCGATCGGCCCTTGCCAAGAAGC  404
+
+Query  269  GGTACCAGGGGAGCCGGTTCCAACGGTGGATCCAGGCGGCTGCTGTTGCGCGGAAGGAGC  328
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  405  GGTACCAGGGGAGCCGGTTCCAACGGTGGATCCAGGCGGCTGCTGTTGCGCGGAAGGAGC  464
+
+Query  329  TCAATGTGACCGGCTTCGTGGCGGTGAATTCGTCCAGTGTTCAGGGGAGGGCTTTGTTCT  388
+            |||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||
+Sbjct  465  TCAATGTGACCGGCTTCGTGGCGGTGAATTCGTCGAGTGTTCAGGGGAGGGCTTTGTTCT  524
+
+Query  389  CGAAAGCCC  397
+             ||||||||
+Sbjct  525  TGAAAGCCC  533
+
+
+>GELK01048598.1 TSA: Noctiluca scintillans c32452_g2_i1 transcribed 
+RNA sequence
+Length=550
+
+ Score = 459 bits (248),  Expect = 2e-128
+ Identities = 347/396 (88%), Gaps = 2/396 (1%)
+ Strand=Plus/Plus
+
+Query  1    GCAGGTTGTTTGT-TTCTTTGACCAACGATGGCTTTGAAGAGGCCATCAGGGAAAGCAGC  59
+            |||||||||| || ||| |||  || |||||| ||||||||||||||||||||| |||||
+Sbjct  35   GCAGGTTGTTGGTCTTC-TTGTGCAGCGATGGTTTTGAAGAGGCCATCAGGGAAGGCAGC  93
+
+Query  60   ACCAGCAATGAAGGACAGTTCCAAGGCGGCCATGAAACCCAGCATGAAGGGGAAGAAACC  119
+            | |||||||||||| ||| ||||||||||||||||| ||||||||||||||||||   ||
+Sbjct  94   AACAGCAATGAAGGGCAGCTCCAAGGCGGCCATGAAGCCCAGCATGAAGGGGAAGCGGCC  153
+
+Query  120  GAGCGCAATTGCCAGAGGAAGCCGCATGTACGCGGCTGTGTTCTCGGGCAGGAAGGAGAA  179
+            |||||| || ||||||||||| || |||||||||||||||||||||||||||||||||||
+Sbjct  154  GAGCGCCATCGCCAGAGGAAGTCGGATGTACGCGGCTGTGTTCTCGGGCAGGAAGGAGAA  213
+
+Query  180  GACGTACACGGGCTTGACCAAGTCGGACCTCCAACGCAATTCCTACAACCGTATTGTTTC  239
+            |||||||||||| ||||||||||||||||||||||| ||||| |||||||||||||||||
+Sbjct  214  GACGTACACGGGTTTGACCAAGTCGGACCTCCAACGAAATTCTTACAACCGTATTGTTTC  273
+
+Query  240  GAAACGGCGATCGGCGCTCGCCAAGAAGCGGTACCAGGGGAGCCGGTTCCAACGGTGGAT  299
+             ||  ||||||||||| | ||||||||||| |||||||| |||  ||||||||| |||||
+Sbjct  274  CAAGAGGCGATCGGCGATTGCCAAGAAGCGATACCAGGGAAGCAAGTTCCAACGATGGAT  333
+
+Query  300  CCAGGCGGCTGCTGTTGCGCGGAAGGAGCTCAATGTGACCGGCTTCGTGGCGGTGAATTC  359
+            | |||||||||| | |||| |||||||||||||| |||  ||||||||| | ||||||||
+Sbjct  334  CAAGGCGGCTGCAGCTGCGAGGAAGGAGCTCAATCTGAGTGGCTTCGTGCCAGTGAATTC  393
+
+Query  360  GTCCAGTGTTCAGGGGAGGGCTTTGTTCTCGAAAGC  395
+             || |  |||||||||||||| |||| |  ||||||
+Sbjct  394  TTCGACGGTTCAGGGGAGGGCGTTGTACGTGAAAGC  429
+
+
+>MMETSP0253-20130528|1061_1 len=198
+Length=194
+
+ Score = 291 bits (157),  Expect = 9e-78
+ Identities = 181/193 (94%), Gaps = 0/193 (0%)
+ Strand=Plus/Plus
+
+Query  195  GACCAAGTCGGACCTCCAACGCAATTCCTACAACCGTATTGTTTCGAAACGGCGATCGGC  254
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    GACCAAGTCGGACCTCCAACGCAATTCCTACAACCGTATTGTTTCGAAACGGCGATCGGC  60
+
+Query  255  GCTCGCCAAGAAGCGGTACCAGGGGAGCCGGTTCCAACGGTGGATCCAGGCGGCTGCTGT  314
+            ||| ||||||||||||||||||||||||||||||||||| |||||| |||||||||| | 
+Sbjct  61   GCTTGCCAAGAAGCGGTACCAGGGGAGCCGGTTCCAACGATGGATCAAGGCGGCTGCAGC  120
+
+Query  315  TGCGCGGAAGGAGCTCAATGTGACCGGCTTCGTGGCGGTGAATTCGTCCAGTGTTCAGGG  374
+            |||| |||| ||||||||| ||||||||||||||  |||||||||||| | |||||||||
+Sbjct  121  TGCGAGGAATGAGCTCAATTTGACCGGCTTCGTGCTGGTGAATTCGTCGACTGTTCAGGG  180
+
+Query  375  GAGGGCTTTGTTC  387
+            |||||||||||||
+Sbjct  181  GAGGGCTTTGTTC  193
+
+
+>MMETSP0253-20130528|21029_1 len=231
+Length=228
+
+ Score = 267 bits (144),  Expect = 2e-70
+ Identities = 174/189 (92%), Gaps = 0/189 (0%)
+ Strand=Plus/Plus
+
+Query  1    GCAGGTTGTTTGTTTCTTTGACCAACGATGGCTTTGAAGAGGCCATCAGGGAAAGCAGCA  60
+            ||||||||||||||||||||||||||||||||||||| |||| |||| ||||| ||||||
+Sbjct  40   GCAGGTTGTTTGTTTCTTTGACCAACGATGGCTTTGATGAGGACATCCGGGAAGGCAGCA  99
+
+Query  61   CCAGCAATGAAGGACAGTTCCAAGGCGGCCATGAAACCCAGCATGAAGGGGAAGAAACCG  120
+             |||||| ||||| ||||||| ||||||||||||||||||||||||||||||||   |||
+Sbjct  100  TCAGCAACGAAGGGCAGTTCCGAGGCGGCCATGAAACCCAGCATGAAGGGGAAGCGGCCG  159
+
+Query  121  AGCGCAATTGCCAGAGGAAGCCGCATGTACGCGGCTGTGTTCTCGGGCAGGAAGGAGAAG  180
+            ||||| || ||||||||||| || ||||||||||||||||||||||||||||||||||||
+Sbjct  160  AGCGCCATCGCCAGAGGAAGTCGGATGTACGCGGCTGTGTTCTCGGGCAGGAAGGAGAAG  219
+
+Query  181  ACGTACACG  189
+            |||||||||
+Sbjct  220  ACGTACACG  228
+
+
+>MMETSP0253-20130528|24641_1 len=165
+Length=162
+
+ Score = 228 bits (123),  Expect = 7e-59
+ Identities = 149/162 (92%), Gaps = 0/162 (0%)
+ Strand=Plus/Minus
+
+Query  35   TGAAGAGGCCATCAGGGAAAGCAGCACCAGCAATGAAGGACAGTTCCAAGGCGGCCATGA  94
+            ||||||||||||||||||| |||||| |||||||||||| ||||||||||||||||||||
+Sbjct  162  TGAAGAGGCCATCAGGGAAGGCAGCAACAGCAATGAAGGGCAGTTCCAAGGCGGCCATGA  103
+
+Query  95   AACCCAGCATGAAGGGGAAGAAACCGAGCGCAATTGCCAGAGGAAGCCGCATGTACGCGG  154
+            | || | |||||||||||||  ||| |||||||| ||||||||||| || |||||||| |
+Sbjct  102  AGCCGATCATGAAGGGGAAGCGACCAAGCGCAATCGCCAGAGGAAGTCGGATGTACGCTG  43
+
+Query  155  CTGTGTTCTCGGGCAGGAAGGAGAAGACGTACACGGGCTTGA  196
+            ||||||||||||||||||||||||||||||||||||||||||
+Sbjct  42   CTGTGTTCTCGGGCAGGAAGGAGAAGACGTACACGGGCTTGA  1
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 36705378756
+
+
+  Database: nt
+    Posted date:  Dec 17, 2019  9:31 PM
+  Number of letters in database: 101,260,773
+  Number of sequences in database:  103,616
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

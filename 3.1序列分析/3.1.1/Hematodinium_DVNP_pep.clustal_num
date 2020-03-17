@@ -1,0 +1,62 @@
+CLUSTAL O(1.2.4) multiple sequence alignment
+
+
+Hematodinium_DVNP.1       --------------------------MAMKG------MK---------------KAMKAK	13
+Hematodinium_DVNP.2       -----------------------------------------------MAMKKAMKAMKVK	13
+Hematodinium_DVNP.3       ------------------------------------------------MAMKGMKSMKVK	12
+Hematodinium_DVNP.4       ---------------------------------------------------MAKKAMRKK	9
+Hematodinium_DVNP.5       -----------------------------------------------MAAM--KKAMKVK	11
+Hematodinium_DVNP.6       --------------------------MAKAMKKAMKAKK---------------------	13
+Hematodinium_DVNP.7       ------------------------------------------------MAMKAMKSMKVK	12
+Hematodinium_DVNP.8       ------------------------------------------------MAMKAMKAKKAK	12
+Hematodinium_DVNP.9       MVMEPTEKSAKSAMKVTKATKKSATKVAPTGKSAMKVAQATEKSTMKVTEATEKSAMKVT	60
+Hematodinium_DVNP.10      --------------------------MAKVM------KK---------------AAKKAM	13
+Hematodinium_DVNP.11      ------------------------------------------------MAMKAMKAIKAK	12
+Hematodinium_DVNP.12      --------------------------MAKPMKMAMKSAKK--SSAKK---TSAKKTSAKK	29
+Hematodinium_DVNP.13      --------------------------MAMKG------MK---------------KAMKAK	13
+                                                                                      
+
+Hematodinium_DVNP.1       TSGK------KSGKKSGKKGGMKRKAKRVSKIAKG-KRAKSSVFRGTKEKTGGGLKKSDL	66
+Hematodinium_DVNP.2       KSA----------KK--SGKGMKKKAKRVSKVAQG-KRAKSSVFRGTKEKTSGGLTKSGL	60
+Hematodinium_DVNP.3       KSA----------KK--SGKGMKKKAKRVSKVARG-KRAKSSVFRGTKEKTPGGLTKSGL	59
+Hematodinium_DVNP.4       GGMK------KSAKPKGG-KKKGMKKKRVSKVAKG-KRAKSSVFRGTKEKTSGGLKRSDL	61
+Hematodinium_DVNP.5       KSAK------KSAKKSGKKGGMKKKAKRVSKVARG-KRAKSSVFRGTKERTSGGLTKNSL	64
+Hematodinium_DVNP.6       ---------------SSA-KKGKKSSKRHSKVAKG-KRAKSSVFRGTKEKTSGGLKKSDL	56
+Hematodinium_DVNP.7       KSA----------KK--SGKGMKKKAKRVSKVARG-KRAKSSVFRGTKEKTTGGLTKSGL	59
+Hematodinium_DVNP.8       KSG----------KS--LGKGMKKKAKRVSKVARG-KRAKSSVFRGTKEKTGGGLTKSGL	59
+Hematodinium_DVNP.9       KTTKKSAMKVPKVMKSGKKVGMKKKAKRVSKIARG-KSAKLRVFRGKKEKTSGGLTKNLL	119
+Hematodinium_DVNP.10      KSAK------KSGKKSAKKGGNKKKSRRVSKIAHG-KRAKASVFRGTKEKTGGGLKKSDL	66
+Hematodinium_DVNP.11      KSG----------KS--LGKGMKKKAKRVSKVSYEESVAKSSVFRGTKRTTGGGLTKSGL	60
+Hematodinium_DVNP.12      TGAK------KTGAKKTS-AMKKKTAKRVSKVAHG-KRAKSSVFRGTKEKTGGGLHKSDL	81
+Hematodinium_DVNP.13      TSGK------KSGKKSGKKGGMKRKAKRVSKIAKG-KRAKSSVFRGTKEKTGGGLKKSDL	66
+                                                  . :* **::   . **  ****.*. * *** :. *
+
+Hematodinium_DVNP.1       TRSKSGKVVSKKSQAAGRKAYQKNGLAKFTRAVQAARKALGIKGFVAIGGKTAKGQALLK	126
+Hematodinium_DVNP.2       VKNKRGKVVSKKKHEWGKKNYG-TGLKKWIDAVTKARKALNIKGYHSIGGSSEKGKALLA	119
+Hematodinium_DVNP.3       VKNKLGKVVSKKKHELGKKIYG-KGIKKWIDAVMKARKSLNIKGYQSVGGSSAKGKALLA	118
+Hematodinium_DVNP.4       CRNKRGKVVSKKASEAAKKRFKKSGLGRFAEALQKARKALGIKGFQAIGGKTAKGQALLK	121
+Hematodinium_DVNP.5       VKNKQGRVVSKKQSEHGKKIFKKHGLQKWIDAVTKARKALGIKGFQAVGGSSAKGKILLA	124
+Hematodinium_DVNP.6       TRNKSGKIVSKKASEAAKKQFKKSGLSKFTEAVKKARKVLGIKGFQAVGGKSAKGQALLK	116
+Hematodinium_DVNP.7       VKNKLGKVVSKKKHELGKKIYG-KGIKKWIDAVMKARKSLNIKGYQSVGGSSAKGKALLA	118
+Hematodinium_DVNP.8       VKNKVGKVVSKKKHEFGKKIYN-KGIKRWIEAVMKARKALNLKGYVSVGGSSAPGKALLT	118
+Hematodinium_DVNP.9       VKNRLGKVVSKKQLEHGKKIYN-KGAKKWIDAVMKARKALNIKGFQSVGGETVGGKALLA	178
+Hematodinium_DVNP.10      TRSKEGKIVSKKSQAAGRRAYQKNGLAKFTRAVAAARKSLGYTGFVPVGGKTAKGAALLK	126
+Hematodinium_DVNP.11      VKNKVGKVVSKKKHEFGKKIYN-KGIKRWIEAVMKARKALNLKGYVSVGGSSAPGKALLT	119
+Hematodinium_DVNP.12      CRNKNGKIVSKKASDMAKKRFKKNGLDKFIVAVQKARKALNIKGFQAVGGKSAKGQALLK	141
+Hematodinium_DVNP.13      TRSKSGKVVSKKSQAHGRKAYQKNGLAKFTKAVQAARKALGIKGFVAIGGKTAKGQALLK	126
+                           :.: *::****    .:: :   *  ::  *:  *** *. .*:  :**.:  *  ** 
+
+Hematodinium_DVNP.1       KARSLYKK-	134
+Hematodinium_DVNP.2       KARVYYK--	126
+Hematodinium_DVNP.3       KARSFYK--	125
+Hematodinium_DVNP.4       KTRELARR-	129
+Hematodinium_DVNP.5       KSRSFYKK-	132
+Hematodinium_DVNP.6       KAREFYKK-	124
+Hematodinium_DVNP.7       KARAFYK--	125
+Hematodinium_DVNP.8       KARALYKK-	126
+Hematodinium_DVNP.9       RARQLYKN-	186
+Hematodinium_DVNP.10      KTLGLYKK-	134
+Hematodinium_DVNP.11      KARALYKK-	127
+Hematodinium_DVNP.12      KARSFYSKK	150
+Hematodinium_DVNP.13      KARSLYKK-	134
+                          ::       
